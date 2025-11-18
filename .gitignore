@@ -1,0 +1,33 @@
+# === FICHIERS À NE PAS ENVOYER ===
+
+# Archives, datasets, gros fichiers
+*.zip
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environnements virtuels
+venv/
+.env/
+.env*/
+*.env
+
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+
+# Fichiers système / Windows
+Thumbs.db
+desktop.ini
+
+# Cache VSCode ou autres éditeurs
+.vscode/
+.idea/
+
+# Logs
+*.log
